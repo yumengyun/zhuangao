@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                         method.invoke(list,10);
                         method.invoke(list,100F);
                         method.invoke(list,1000L);
-
+// aa  bb
 
                     } catch (IllegalAccessException e) {
                         e.printStackTrace();
@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
         }
+        // aaaaaaaaaaaaaa ffffffff
         for (Object obj : list) {
 
             Log.i("--a", "onCreate: "+obj);
